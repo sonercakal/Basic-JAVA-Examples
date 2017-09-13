@@ -1,0 +1,20 @@
+package method_mean;
+
+
+public class Method_mean {
+
+    
+    public static void main(String[] args) {
+        System.out.println(avarage(12,23,43,54));
+        
+        
+    }
+    public static int avarage(int ...numbers){
+        int total= 0;
+        for(int x:numbers)
+            total+=x;
+        return total/numbers.length;
+        
+    }
+    
+}
